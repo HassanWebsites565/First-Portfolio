@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    height: 100%;
+    /* color: black; */
+    border: 10px solid #040475;
+    background-color: #e7e7ee;
+}
+
+/* Header  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0rem 12rem 0rem 12rem;
+  gap: 2rem;
+  padding: 3rem 0rem 2rem 0rem;
+}
+.h11{
+    font-size: 6rem;
+    color: #040475;
+   
+}
+.in-head{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.imgg {
+  height: 400px;
+  width: 300px;
+  /* width: 300px; */
+  border-radius: 20%;
+}
+
+/* Main  */
+.main {
+  display: flex;
+  margin: 4rem  12rem 1rem 12rem;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.found{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    
+}
+.para {
+    word-break: break-all;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2rem;
+    text-align: justify;
+
+}
+
+/* Biblography */
+.h-biblo{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    
+}
+.biblo {
+    display: flex;
+    margin: 3rem 0rem 0rem 12rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.order {
+    text-decoration: black;
+    margin: 0rem 28rem 0rem 2rem;
+    
+}
+li {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+/* Footer  */
+.foot {
+  display: flex;
+  padding: 3rem 12rem 1rem 0rem;
+  align-items: center;
+  justify-content: end;
+}
+.foot h3{
+
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+
+/* --background: #FFFFFF;
+--primary: #1c1c1c;
+--accent: #1B1AFF;
+--complementary: #FFBB37; */

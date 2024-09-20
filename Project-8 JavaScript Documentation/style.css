@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html, body{
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.cont1{
+    gap: 12px;
+    background-color: #F8F8F8;
+    border: 1px solid black;
+} 
+ .cont11{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont1 h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1.3rem;
+}
+.cont1 h1:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #ccc;
+}
+.order li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 1.3rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.order li:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #ccc;
+}
+.order a{
+    list-style: none;
+    color: black;
+    text-decoration-line: none;
+
+}
+
+/* Cont 2 Section 1  */
+.cont2{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 4rem;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.intro1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+/* Section 2  */
+.sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sec2 ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 3rem;
+    gap: 1rem;
+}
+
+/* Section 3  */
+.sec3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sec3-paras{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Section 4  */
+.sec4{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #EBEBEB;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+/* Section 5  */
+.sec5{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .cont1{
+        width: 100%;
+    }
+    .cont1 h1{
+        text-align: start;
+    }
+}
